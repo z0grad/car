@@ -12,10 +12,9 @@ st.title('Car Price Prediction\n')
 df = pd.read_csv('Car_clean.csv')
 
 # Load Preprocessor
-# preprocessor = pd.read_pickle('preprocessor.pkl')
-# model = pd.read_pickle('model.pkl')
-preprocessor = pickle.load(open('preprocessor.pkl', 'rb'))
-model = pickle.load(open('model.pkl', 'rb'))
+preprocessor = pd.read_pickle('preprocessor.pkl')
+model = pd.read_pickle('model.pkl')
+
 
 # Input Data
 
